@@ -1,0 +1,12 @@
+import os
+os.system("cls")
+print()
+num1=int(input("Ingrese el primer numero >"))
+num2=int(input("Ingrwese el segundo numero >"))
+print()
+if num2 == 0:
+    print("Error: El divisor no puede ser 0")
+else:
+    div=num1/num2
+    print("el resultado de la division es:",div)   
+print() 

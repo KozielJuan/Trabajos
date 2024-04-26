@@ -1,0 +1,28 @@
+import os
+os.system("cls")
+print()
+ing=int(input("Ingrese sus ingresos anuales >"))
+print()
+if ing < 10000:
+    ti=ing/100*5
+    ti=round(ti,2)
+    print("Tipo impositivo = 5%, Total a pagar =",ti)
+elif ing >= 10000 and ing < 20000:
+    ti=ing/100*15
+    ti=round(ti,2)
+    print("Tipo impositivo = 15%, Total a pagar =",ti)
+elif ing >= 20000 and ing < 35000:
+    ti=ing/100*20
+    ti=round(ti,2)
+    print("Tipo impositivo = 20%, Total a pagar =",ti)
+elif ing >= 35000 and ing < 60000:
+    ti=ing/100*30
+    ti=round(ti,2)
+    print("Tipo impositivo = 30%, Total a pagar =",ti)
+elif ing >= 60000:
+    ti=ing/100*45
+    ti=round(ti,2)
+    print("Tipo impositivo = 45%, Total a pagar =",ti)
+else:
+    print("error")
+print()
